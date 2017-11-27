@@ -26,5 +26,9 @@ clean:
 run: $(TARGET)
 	./$(TARGET)
 
-.PHONY: clean run
+fmt:
+	clang-format -i src/*.cc src/*.h
+
+
+.PHONY: clean run fmt
 
