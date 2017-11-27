@@ -23,5 +23,8 @@ $(TARGET): $(OBJFILES)
 clean:
 	$(RM) $(CLEANFILES)
 
-.PHONY: clean
+run: $(TARGET)
+	./$(TARGET)
+
+.PHONY: clean run
 
