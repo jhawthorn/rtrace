@@ -1,0 +1,4 @@
+rtrace
+*.d
+*.o
+*.ppm
