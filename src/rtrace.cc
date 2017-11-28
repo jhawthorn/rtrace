@@ -7,7 +7,7 @@ using namespace std;
 #include "triangle.h"
 
 int main(int argc, char *argv[]) {
-	Scene scene(800, 600);
+	Scene scene(1920, 1080);
 	Sphere *s1 = new Sphere(v4(-2, 0, -10), 1.5);
 	s1->colour = Colour(0, 0, 255);
 	Sphere *s3 = new Sphere(v4(2, 0, -10), 1.5);
