@@ -21,7 +21,7 @@ class Ray {
 		*o = NULL;
 		for (unsigned int i = 0; i < objects.size(); i++) {
 			double d = objects[i]->intersect(this);
-			if (d < *dist && d > 0.01) {
+			if (d < *dist && d > 0.0001) {
 				*o = objects[i];
 				*dist = d;
 			}
