@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
 	scene.objects.push_back(s3);
 
 	Triangle *t1 = new Triangle(v4(-10, 2, -8), v4(0, -2, -20), v4(10, 2, -8));
-	t1->colour = Colour(100, 100, 100);
+	t1->colour = Colour(200, 200, 200);
 	scene.objects.push_back(t1);
 
 	/*Colour colour1(0xcc, 0xcc, 0xcc);
